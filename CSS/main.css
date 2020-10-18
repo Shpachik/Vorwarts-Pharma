@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font: normal 'Open Sans';
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(OpenSans-Regular.ttf);
+    font-weight: normal;
+}
+
+.navigation_bar {
+    display: flex;
+    flex-basis: 100%;  
+    height: 70px;
+    background: #f2f2f2;
+    color: #4f4f4f;
+    font-size: 16px;
+}
+
+.part_of_bar {
+    border: solid 1px black;
+    display: inline-flex;
+    flex-basis: 10%;
+}
+
